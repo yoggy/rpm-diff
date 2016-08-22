@@ -5,6 +5,8 @@ simple diff utility for rpm packages
 Usage
 ----
 
+How to use rpm-diff.rb
+
     usage : 
         ./rpm-diff.rb FILE1.txt FILE2.txt
     
@@ -21,6 +23,10 @@ Usage
       
         $ ./rpm-diff.rb rpm-list-1st.txt rpm-list-2nd.txt
 
+
+How to use rpm-downloader.rb
+
+        $ ./rpm-diff.rb rpm-list-1st.txt rpm-list-2nd.txt | ./rpm-downloader.rb
 
 Copyright and license
 ----
